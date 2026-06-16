@@ -32,15 +32,6 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Development resources
-09-MnMCP-DevResources/
-03-MnMCP-Protocol-Bridge/
-MnMCP-Protocol/
-archive/
-
-# Old versions
-mnmcp-v2/
-
 # Large files
 *.zip
 *.tar.gz
@@ -52,23 +43,6 @@ mnmcp-v2/
 *.key
 secrets/
 
-# Local-only directories
-docs/project/
-scripts/dev/
-scripts/tools/
-src/
-tools/
-
-# Web files (local)
-icon.png
-index.html
-script.js
-style.css
-*.png
-
 # Temporary
 *.tmp
 *.bak
-
-# CI artifacts
-.nojekyll
