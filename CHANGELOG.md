@@ -2,6 +2,16 @@
 
 All notable changes to MnMCP will be documented in this file.
 
+## [Unreleased]
+
+### Fixed
+- Preserve complete Minecraft frame payloads in the exported packet handler.
+- Reject incomplete, extra, oversized or invalid length/ID frames before parsing.
+- Bound nonnegative VarInt encoding and require complete UTF-8 string data.
+
+### Added
+- Offline golden-wire and boundary regression tests for the frame codec.
+
 ## [Victoria v3.1-20260605 Phase8 Stable] - 2026-06-05
 
 ### Added
